@@ -1,2 +1,106 @@
-main {
+/* src/App.css */
+
+:root {
+  --bg: #020617;
+  --bg-card: #020617;
+  --border: #1f2937;
+  --border-accent: #3b82f6;
+  --text: #e5e7eb;
+  --text-muted: #9ca3af;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.portal-root {
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.portal-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.portal-header p {
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+.portal-grid {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.portal-card {
+  padding: 1rem;
+  border-radius: 0.9rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.portal-card--coming {
+  border-style: dashed;
+}
+
+.portal-card h2 {
+  margin: 0;
+}
+
+.portal-card__description {
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+.portal-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+
+.portal-tag {
+  padding: 0.15rem 0.4rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.portal-card__actions {
+  margin-top: 0.8rem;
+}
+
+.portal-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-accent);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.portal-button:hover {
+  opacity: 0.8;
+}
+
+.portal-coming-label {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.portal-footer {
+  margin-top: 2.5rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  text-align: center;
 }
