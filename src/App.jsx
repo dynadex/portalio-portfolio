@@ -8,7 +8,7 @@ export default function App() {
       description:
         'Visualiserar svenska nyheter på en karta baserat på geokodade koordinater.',
       tech: ['React', 'Leaflet', 'Batch/Cache'],
-      url: 'https://DIN-REPL-URL-FÖR-NYHETER-PA-KARTA',
+      url: 'https://dynadex.github.io/news-map/',  // <-- NY LÄNK
       status: 'live',
     },
     {
