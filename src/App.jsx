@@ -1,14 +1,23 @@
-// src/App.jsx
 import './App.css'
+
 export default function App() {
   const projects = [
     {
       id: 'news-map',
-      title: 'Nyheter på karta',
+      title: 'Nyhetskarta',
       description:
         'Visualiserar svenska nyheter på en karta baserat på geokodade koordinater.',
       tech: ['React', 'Leaflet', 'Batch/Cache'],
-      url: 'https://dynadex.github.io/news-map/',  // <-- NY LÄNK
+      url: 'https://dynadex.github.io/news-map/',
+      status: 'live',
+    },
+    {
+      id: 'bot-debater',
+      title: 'Bot-debater',
+      description:
+        'Personalisera 2 AI-bottar och låt den debattera ett ämne.',
+      tech: ['React'],
+      url: 'https://dynadex.github.io/bot-debater/',
       status: 'live',
     },
     {
@@ -34,7 +43,7 @@ export default function App() {
   return (
     <div className="portal-root">
       <header className="portal-header">
-        <h1>Mina webbapplikationer</h1>
+        <h1>Webapplikationer</h1>
         <p>Demo-projekt som körs direkt i webbläsaren.</p>
       </header>
 
