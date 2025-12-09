@@ -13,7 +13,7 @@ export default function App() {
     },
     {
       id: 'bot-debater',
-      title: 'Bot-debater',
+      title: 'Botdebatt',
       description:
         'Personalisera 2 AI-bottar och låt den debattera ett ämne.',
       tech: ['React'],
