@@ -20,7 +20,7 @@ export default function App() {
       url: 'https://dynadex.github.io/bot-debater/',
       status: 'live',
     },
-    {
+    /**{
       id: 'budget-tool',
       title: 'Budgetverktyg (kommer)',
       description:
@@ -37,7 +37,7 @@ export default function App() {
       tech: ['React', 'API-integration'],
       url: null,
       status: 'coming',
-    },
+    },*/
   ]
 
   return (
